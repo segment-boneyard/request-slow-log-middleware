@@ -1,0 +1,8 @@
+{
+  "name": "request-slowlog-middleware",
+  "private": true,
+  "dependencies": {
+    "defaults": "~1.0.0",
+    "extend": "~1.2.1"
+  }
+}
