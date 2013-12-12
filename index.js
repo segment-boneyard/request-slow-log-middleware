@@ -1,7 +1,7 @@
 
 var defaults = require('defaults');
-var extend = require('extend');
-var onResponse = require('on-response');
+var extend = require('s-extend');
+var onResponse = require('s-on-response');
 
 
 /**

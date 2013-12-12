@@ -1,8 +1,10 @@
 {
-  "name": "request-slowlog-middleware",
+  "name": "s-request-slowlog-middleware",
   "private": true,
   "dependencies": {
     "defaults": "~1.0.0",
-    "extend": "~1.2.1"
+    "extend": "~1.2.1",
+    "s-extend": "1.0.0",
+    "s-on-response": "1.0.0"
   }
 }
