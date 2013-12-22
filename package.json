@@ -4,7 +4,6 @@
   "dependencies": {
     "defaults": "~1.0.0",
     "extend": "~1.2.1",
-    "extend": "~1.0.0",
     "on-response": "1.0.0"
   }
 }
