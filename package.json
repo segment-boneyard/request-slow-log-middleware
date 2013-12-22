@@ -1,9 +1,9 @@
 {
   "name": "request-slow-log-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "defaults": "~1.0.0",
     "extend": "~1.2.1",
-    "on-response": "1.0.0"
+    "on-response": "1.0.1"
   }
 }
