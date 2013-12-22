@@ -1,15 +1,13 @@
 
 var defaults = require('defaults');
-var extend = require('s-extend');
-var onResponse = require('s-on-response');
-
+var extend = require('extend');
+var onResponse = require('on-response');
 
 /**
  * Expose `generate`.
  */
 
 module.exports = generate;
-
 
 /**
  * Generate a request slow log middleware.
@@ -50,7 +48,6 @@ function generate (logger, thresholds) {
     next();
   };
 }
-
 
 /**
  * Formats the request log message.

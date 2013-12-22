@@ -1,12 +1,12 @@
-# request-slowlog-middleware
+# request-slow-log-middleware
 
-    A slow response logger middleware.
+  Log an [express](https://github.com/visionmedia/express) request if the response is slow.
 
 ## Example
 
 ```js
-var requestLog = require('request-log');
-var slowLog = require('request-slow-log');
+var requestLog = require('request-log-middleware');
+var slowLog = require('request-slow-log-middleware');
 var logger = new require('winston').Logger();
 
 var app = express();
@@ -21,7 +21,7 @@ app.configure('production', function () {
 
 ### requestLog(logger, thresholds)
 
-    Return a request logger middleware with custom `thresholds`:
+  Return a slow request logger middleware with custom `thresholds`:
 
 ```js
 {
@@ -30,3 +30,17 @@ app.configure('production', function () {
 }
 ```
 
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
+```
